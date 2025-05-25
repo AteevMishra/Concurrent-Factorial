@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 
         long sT = System.currentTimeMillis();
-        for(long i=1; i<=12; i++)
+        for(long i=1; i<=10; i++)
         {
             factorial(i);
         }
@@ -52,7 +52,7 @@ public class Main {
         System.out.println("Completed through multi-threading in : " + (eT - sT));
 
         //RESULTS
-        //Normal Process took : 36089 ms / 36 sec
+        //Normal Process took : 30077 ms / 30 sec
         //Multi-threading Process took : 3023 ms / 3 sec
     }
 }
