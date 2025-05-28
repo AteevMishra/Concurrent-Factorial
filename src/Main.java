@@ -53,6 +53,6 @@ public class Main {
 
         //RESULTS
         //Normal Process took : 30077 ms / 30 sec
-        //Multi-threading Process took : 3023 ms / 3 sec
+        //Multi-threading (10 threads) Process took : 3023 ms / 3 sec
     }
 }
